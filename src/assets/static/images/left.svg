@@ -1,0 +1,6 @@
+<svg enable-background="new 0 0 32 32" version="1.1" viewBox="0 0 32 32" xml:space="preserve"
+     xmlns="http://www.w3.org/2000/svg" >
+    <circle cx="16" cy="16" fill="none" r="14" stroke="#1D1D1B" stroke-miterlimit="10"/>
+    <polyline
+            fill="none" points="21.2,25.7 10.8,16 21.2,6.3     " stroke="#1D1D1B" stroke-miterlimit="10"/>
+</svg>

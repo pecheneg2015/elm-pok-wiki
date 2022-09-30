@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    .footer {
+        @apply w-full fixed bottom-0 z-50 bg-white shadow-[0_35px_60px_-15px_rgba(0,0,0,0.5)] py-2
+    }
+
+    .footer__content {
+        @apply max-w-5xl mx-auto  flex items-center  space-x-4 h-8 px-2
+    }
+
+    .header{
+        @apply sticky top-0 z-50 bg-white shadow-lg py-2
+    }
+
+    .header__content{
+        @apply max-w-5xl mx-auto  flex items-center space-x-4 px-2
+    }
+
+    .header__logo{
+        @apply h-8 grow-0
+    }
+
+    .header__title{
+        @apply grow text-xl
+    }
+
+    .slider{
+        @apply w-full h-48 relative
+    }
+
+    .slider__button {
+        @apply h-48  absolute top-0 p-4
+    }
+
+    .slider__button__left {
+        @apply bg-gradient-to-r from-gray-200/20  to-white/10 left-0
+    }
+
+    .slider__button__right {
+        @apply  bg-gradient-to-l from-gray-200/20 to-white/10   right-0
+    }
+
+    .slider__slide{
+        @apply h-full w-full flex items-center justify-center
+    }
+
+    .pokemonList{
+        @apply space-y-4
+    }
+
+.pokemonList__button-container{
+    @apply flex space-x-2 justify-center
+}
+    .pokemonList__button__active{
+        @apply font-medium text-gray-500 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white px-2 py-1 rounded transition
+    }
+    .pokemonList__button__disabled{
+        @apply bg-neutral-300 text-white px-2 py-1 rounded
+    }
+
+.pokemonList__links-container{
+    @apply flex flex-col  bg-white rounded-lg border border-gray-200
+}
+
+.pokemonList__link{
+    @apply text-slate-800 text-lg text-left  flex space-x-2  text-left px-6 py-2 border-b border-gray-200 w-full hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-0 focus:bg-gray-200 focus:text-gray-600 transition duration-500 cursor-pointer
+}
+
+.pokemon-info__container{
+    @apply flex justify-center
+}
+.pokemon-info__card{
+    @apply rounded-lg shadow-lg bg-white mx-2 lg:mx-auto w-64
+}
+.pokemon-info__desc-container{
+    @apply p-6 pt-0
+}
+
+.pokemon-info__title{
+    @apply text-gray-900 text-xl font-medium mb-6
+}
+.pokemon-info__stat-list{
+    @apply space-y-2
+}
+
+.pokemon-info__stat{
+    @apply space-x-4  grid grid-cols-3
+}
+
+.pokemon-info__stat-name{
+    @apply col-span-2  font-semibold
+}
+
+.pokemon-info__stat-value{
+    @apply text-left
+}
+
+
+.main{
+    @apply space-y-4
+}
+
+.main__content{
+    @apply max-w-5xl mx-2 lg:mx-auto space-y-4 pb-14  space-x-4 flex flex-col md:flex-row
+}
+
+.main__list{
+    @apply w-full md:w-1/3
+}
+
+.main__info{
+    @apply w-full md:w-2/3 flex flex-col
+}
