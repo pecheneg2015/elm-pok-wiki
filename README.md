@@ -48,3 +48,4 @@ This will generate the compiled files in dist folder.
 *  [Beginning Elm](https://elmprogramming.com/) 
 *  [Translator pattern](https://medium.com/@alex.lew/the-translator-pattern-a-model-for-child-to-parent-communication-in-elm-f4bfaa1d3f98) 
 *  [Statefull components in Elm](https://www.allo-media.net/en/tech/elm/2019/07/16/stateful-components-in-elm.html) 
+*  [Pokelmon - Elm project consuming PokéAPI.](https://github.com/brenopanzolini/pokelmon) 
