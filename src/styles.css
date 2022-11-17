@@ -3,11 +3,11 @@
 @tailwind utilities;
 
     .footer {
-        @apply w-full fixed bottom-0 z-50 bg-white shadow-[0_35px_60px_-15px_rgba(0,0,0,0.5)] py-2
+        @apply w-full fixed bottom-0 z-50 bg-white shadow-[0_35px_60px_-15px_rgba(0,0,0,0.5)] py-4
     }
 
     .footer__content {
-        @apply max-w-5xl mx-auto  flex items-center  space-x-4 h-8 px-2
+        @apply flex flex-col md:flex-row  max-w-5xl mx-auto items-center md:justify-between space-x-4 px-2
     }
 
     .header{
@@ -103,7 +103,7 @@
 }
 
 .main__content{
-    @apply max-w-5xl mx-2 lg:mx-auto space-y-4 pb-14  space-x-4 flex flex-col md:flex-row
+    @apply max-w-5xl mx-2 md:mx-auto space-y-4 md:space-y-0 pb-32 space-x-0 md:space-x-4 flex flex-col md:flex-row
 }
 
 .main__list{
